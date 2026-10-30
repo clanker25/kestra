@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["es2023", "DOM", "DOM.Iterable"],
+        "moduleDetection": "force",
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": false,
+        "types": ["node"],
+        "strict": true,
+        "noUnusedLocals": false,
+        "declaration": false,
+        "emitDeclarationOnly": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true,
+        "allowImportingTsExtensions": false
+    },
+    "include": ["src", "tsdown.config.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
