@@ -1,0 +1,9 @@
+kestra:
+  server:
+    terminationGracePeriod: 2s
+    liveness:
+      enabled: true
+      interval: 0s
+      timeout: 3s
+      initialDelay: 0s
+      heartbeatInterval: 2s
