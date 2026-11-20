@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["es2023", "DOM"],
+        "moduleDetection": "force",
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "strict": false,
+        "noUnusedLocals": true,
+        "esModuleInterop": false,
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true,
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "allowImportingTsExtensions": false,
+        "noEmit": false
+    },
+    "include": [
+        "tests/storybook",
+        ".storybook",
+        "src"
+    ],
+    "exclude": ["src/**/*.test.ts"],
+    "vueCompilerOptions": {
+        "checkUnknownProps": true,
+        "dataAttributes": ["data-*"]
+    }
+}
